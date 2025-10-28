@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "DR学习助手 - 考研学习定制助手"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "DR学习助手主程序"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "DR习题助手"
+    },
+    {
+      "name": "internet_permission_reason",
+      "value": "需要访问网络以调用DeepSeek AI提供学习辅助功能"
+    }
+  ]
+}

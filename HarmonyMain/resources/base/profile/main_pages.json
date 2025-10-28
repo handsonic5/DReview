@@ -1,0 +1,14 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/ApiConfig",
+    "pages/WordList",
+    "pages/WordDetail",
+    "pages/ErrorMain",
+    "pages/MathCategory",
+    "pages/MajorCategory",
+    "pages/PoliticsCategory",
+    "pages/ErrorList",
+    "pages/ErrorDetail"
+  ]
+}
