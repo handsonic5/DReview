@@ -1,4 +1,4 @@
-# DeepReview - 计算机考研学习助手（其实讲道理应该是FastReview（
+# DeepReview - 计算机考研学习助手（android、Windows，本地存储）（其实讲道理应该是FastReview（
 
 <div align="center">
 
