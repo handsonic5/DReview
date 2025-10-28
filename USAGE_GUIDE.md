@@ -139,7 +139,7 @@ sin(x)/x = 1 - x²/3! + x⁴/5! - ...
 
 **文件位置：**
 - Windows: `C:\Users\你的用户名\Documents\1730123456789.json`
-- Android: `/storage/emulated/0/Documents/1730123456789.json`
+- Android: `/storage/emulated/0/Documents/1730123456789.json`（可通过"文件管理"找到）
 
 **方法二：分享到其他应用**
 1. 点击 **"分享数据文件"**
@@ -231,7 +231,7 @@ c & d
 
 **A:** 
 - Windows: `C:\Users\你的用户名\Documents\`
-- Android: `/storage/emulated/0/Documents/`
+- Android: `/storage/emulated/0/Documents/`（打开文件管理 → Documents）
 - 文件名为时间戳，如 `1730123456789.json`
 
 ### Q: 如何在电脑和手机之间同步？
@@ -290,8 +290,7 @@ c & d
 
 - ✅ 每天复习新增内容
 - ✅ 每周回顾易错题
-- ✅ 每月总结知识盲区
-- ✅ 考前集中复习重点
+- ✅ 每月总结知识盲区，利用搜索功能
 
 ### 4. 数据管理
 

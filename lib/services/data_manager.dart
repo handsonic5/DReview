@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:share_plus/share_plus.dart';
+import 'package:flutter/foundation.dart' show kIsWeb;
 import '../models/word.dart';
 import '../models/error_question.dart';
 
@@ -359,20 +360,33 @@ CPU主要由以下部分组成：
       // 生成JSON字符串
       final jsonString = jsonEncode(exportData);
 
-      // 获取合适的保存目录
-      Directory? directory;
-      try {
-        // 优先使用文档目录（Windows/Android/iOS都可访问）
-        directory = await getApplicationDocumentsDirectory();
-      } catch (e) {
-        // 如果失败，使用临时目录
-        directory = await getTemporaryDirectory();
-      }
-
       // 使用时间戳作为文件名
       final timestamp = DateTime.now().millisecondsSinceEpoch;
       final fileName = '$timestamp.json';
-      final filePath = '${directory.path}/$fileName';
+
+      // 根据平台选择合适的保存目录
+      String filePath;
+      
+      if (Platform.isAndroid) {
+        // Android: 使用外部存储的 Documents 目录
+        // /storage/emulated/0/Documents/
+        final externalDir = Directory('/storage/emulated/0/Documents');
+        
+        // 确保目录存在
+        if (!await externalDir.exists()) {
+          await externalDir.create(recursive: true);
+        }
+        
+        filePath = '${externalDir.path}/$fileName';
+      } else if (Platform.isIOS) {
+        // iOS: 使用应用文档目录
+        final directory = await getApplicationDocumentsDirectory();
+        filePath = '${directory.path}/$fileName';
+      } else {
+        // Windows/Linux/macOS: 使用应用文档目录
+        final directory = await getApplicationDocumentsDirectory();
+        filePath = '${directory.path}/$fileName';
+      }
 
       // 写入文件
       final file = File(filePath);

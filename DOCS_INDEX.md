@@ -1,7 +1,7 @@
 # DeepReview 文档索引
 
 本项目的完整文档列表和说明。
-
+PS：本项目所有md文件都由ai生成，只粗略看了一下，有锅gpt背（）
 ---
 
 ## 📚 主要文档
@@ -115,26 +115,12 @@
 1. 在 GitHub 上提交 Issue
 2. 或直接提交 Pull Request 修改文档
 
----
-
-## 🌍 多语言支持
-
-当前支持语言：
-- 🇨🇳 简体中文（当前）
-
-计划支持：
-- 🇺🇸 English
-- 🇯🇵 日本語
-
----
 
 ## 📞 获取帮助
 
 如果文档没有解决您的问题：
 
-1. 📧 发送邮件至：your-email@example.com
-2. 💬 提交 [GitHub Issue](https://github.com/your-username/deepreview/issues)
-3. 💡 加入讨论：[GitHub Discussions](https://github.com/your-username/deepreview/discussions)
+您就留个言吧考完研大概也许有时间会看的（
 
 ---
 

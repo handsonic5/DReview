@@ -1,4 +1,4 @@
-# DeepReview - 考研学习助手（其实是FastReview）
+# DeepReview - 考研学习助手（其实讲道理应该是FastReview（
 
 <div align="center">
 
