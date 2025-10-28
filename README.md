@@ -3,7 +3,9 @@
 <div align="center">
 
 **一个考研学习笔记工具，支持单词速记、错题速记和 AI 智能问答，个人建议主要当作概念记忆手段**
+
 **使用flutter构建，你可以自己弄到其它平台，譬如Web。HarmonyMain文件夹下有鸿蒙部分源码，因为项目由鸿蒙的小项目改编。**
+
 **如果这个项目对您有帮助，请给它一个 ⭐️！如果没有帮助也给一个⭐！（bushi）**
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.9+-blue.svg)](https://flutter.dev/)
