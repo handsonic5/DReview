@@ -1,4 +1,4 @@
-# DeepReview - 考研学习助手
+# DeepReview - 考研笔记助手
 
 <div align="center">
 
