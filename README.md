@@ -1,8 +1,10 @@
-# DeepReview - 考研学习助手
+# DeepReview - 考研学习助手（其实是FastReview）
 
 <div align="center">
 
 **一个考研学习笔记工具，支持单词速记、错题速记和 AI 智能问答，个人建议主要当作概念记忆手段**
+
+**如果这个项目对您有帮助，请给它一个 ⭐️！如果没有帮助也给一个⭐！（bushi）**
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.9+-blue.svg)](https://flutter.dev/)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20|%20Android%20|%20iOS-green.svg)](#)
@@ -14,9 +16,25 @@
 
 ---
 
+## 📸 应用截图
+
+<div align="center">
+
+| 主页 | 错题分类 | 科目列表 |
+|:---:|:---:|:---:|
+| <img src="1.jpg" width="250"/> | <img src="2.jpg" width="250"/> | <img src="3.jpg" width="250"/> |
+
+| 错题列表 | 数据管理 |
+|:---:|:---:|
+| <img src="4.jpg" width="250"/> | <img src="5.jpg" width="250"/> |
+
+</div>
+
+---
+
 ## 📱 应用简介
 
-DeepReview 是一款专为考研学生打造的学习助手应用，提供以下核心功能：
+DeepReview 是一款专为考研学生（我自己）打造的学习助手应用，提供以下简单核心功能：
 
 - 📚 **单词速记** - 高效管理考研英语词汇
 - ❌ **错题管理** - 按科目分类整理错题（数学、专业课、政治）
@@ -372,14 +390,13 @@ lib/
 
 如有问题或建议，欢迎联系：
 
-- 📮 Email: 咕咕嘎嘎
-- 💬 Issue: [GitHub Issues](https://github.com/your-username/deepreview/issues)
+咕咕嘎嘎 骗你的，没有联系方式
 
 ---
 
 ## 🌟 Star History
 
-如果这个项目对您有帮助，请给它一个 ⭐️！
+如果这个项目对您有帮助，请给它一个 ⭐️！如果没有帮助也给一个⭐！（bushi）
 
 ---
 
